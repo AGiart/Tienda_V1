@@ -4,14 +4,14 @@
     background-color: #ccffff;
     color: #2a94b7;
 }
-header h1, header h2 {
+h1, h2 {
     text-align: center;
 }
-header h1 {
+h1 {
     background-color: black;
     color: white
 }
-header h2 {
+h2 {
     background-color: #000000;
     color: #00cc00
         
