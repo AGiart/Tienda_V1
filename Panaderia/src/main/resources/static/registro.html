@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Panpilo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/indice.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+
+            <nav class="nav">
+
+                <a class="nav-link" href="index.html"><img class="logo" src="img/logoPana.jpg" alt=""/></a>
+
+
+                <ul class="nav-menu">
+
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="productos.html">Productos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="carrito.html">Carrito</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="registro.html">Registro</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="nosotros.html">Nosotros</a></li>
+                </ul>
+
+            </nav>
+        </header>
+        <aside>
+            <p class="ctP">Registro</p>
+        </aside>
+        <section>
+            <article>
+                <h3>Ingrese sus datos</h3>
+                <hr/>
+                <form class="login" action="/usuario/registro" method="post">
+                    Usuario <input required="true" type="text" name="username" value="" size="15" /><br/>
+                    Contraseña: <input required="true" type="password" name="password" value="" size="10" /><br/>
+                    Nombre: <input required="true" type="text" name="nombre" value="" size="35" /><br/>
+                    Direccion <input required="true"type="text" name="direccion" value="" size="90" /><br/>
+                    Edad: <input type="number" name="edad" value="" min="18" max="100"/><br/>
+                    Numero de telefono: <input required="true" type="number" name="numero telefono" value="" size="15"/><br/>
+                    Correo: <input required="true"type="email" name="correo" value="" size="50" /><br/>
+                    <input class="btn" type="submit" value="Registrar" />
+                </form>
+
+            </article>
+        </section>
+    </body>
+</html>

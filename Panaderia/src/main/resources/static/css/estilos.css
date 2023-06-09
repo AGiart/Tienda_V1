@@ -1,0 +1,29 @@
+
+/* 
+    Created on : 8 jun. 2023, 14:28:49
+    Author     : isalr
+Estilos
+*/
+body {
+    background-image: url(https://pbs.twimg.com/media/Do5XscUXoAA2-zE?format=jpg&name=4096x4096 ) ;
+    background-size: 1350px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-attachment: fixed;
+    padding: 80px 20px 0;
+}
+h3 {
+    color: white;
+    font-weight: bold;
+    padding-top: 150px;
+    background-color: #ff9933;
+    padding: 10px 20px 0;
+    margin-top: 30px;
+    border-radius: 10px;
+        
+}
+hr {
+    background-color: white;
+    height: auto;
+    
+}
