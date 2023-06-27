@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
 
-
+//test
 @Configuration
 public class ProjectConfig implements WebMvcConfigurer{
     @Bean
