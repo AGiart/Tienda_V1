@@ -1,7 +1,14 @@
 C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\domain\Categoria.java
 C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\Tienda1Application.java
-C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\service\impl\CategoriaServiceImpl.java
-C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\dao\CategoriaDao.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\domain\Producto.java
 C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\ProjectConfig.java
 C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\service\CategoriaService.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\service\FirebaseStorageService.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\controller\ProductoController.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\service\impl\ProductoServiceImpl.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\service\ProductoService.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\service\impl\CategoriaServiceImpl.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\service\impl\FirebaseStorageServiceImpl.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\dao\CategoriaDao.java
+C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\dao\ProductoDao.java
 C:\Repositorio_Local\Tienda_V1\Tienda_V2\src\main\java\com\tienda1\controller\CategoriaController.java
