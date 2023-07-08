@@ -1,7 +1,14 @@
 com\tienda1\dao\CategoriaDao.class
 com\tienda1\controller\CategoriaController.class
+com\tienda1\service\ProductoService.class
 com\tienda1\ProjectConfig.class
 com\tienda1\service\CategoriaService.class
 com\tienda1\Tienda1Application.class
 com\tienda1\domain\Categoria.class
+com\tienda1\service\FirebaseStorageService.class
 com\tienda1\service\impl\CategoriaServiceImpl.class
+com\tienda1\domain\Producto.class
+com\tienda1\service\impl\FirebaseStorageServiceImpl.class
+com\tienda1\controller\ProductoController.class
+com\tienda1\dao\ProductoDao.class
+com\tienda1\service\impl\ProductoServiceImpl.class
