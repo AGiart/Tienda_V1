@@ -74,4 +74,6 @@ public class ProductoController {
         model.addAttribute("producto", producto);
         return "/producto/modifica";
     }
+    
+    
 }

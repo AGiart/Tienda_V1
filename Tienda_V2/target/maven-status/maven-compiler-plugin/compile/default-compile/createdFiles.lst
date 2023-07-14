@@ -10,5 +10,6 @@ com\tienda1\service\impl\CategoriaServiceImpl.class
 com\tienda1\domain\Producto.class
 com\tienda1\service\impl\FirebaseStorageServiceImpl.class
 com\tienda1\controller\ProductoController.class
+com\tienda1\controller\PruebasController.class
 com\tienda1\dao\ProductoDao.class
 com\tienda1\service\impl\ProductoServiceImpl.class

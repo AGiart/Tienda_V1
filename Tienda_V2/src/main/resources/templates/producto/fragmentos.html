@@ -165,7 +165,7 @@
                                                 <div class="mb-3">
                                                     <label for="categoria">[[#{producto.categoria}]]</label>
 
-                                                    <select class="form-select" aria-label="Default select example" th:field="*{idCategoria}"
+                                                    <select class="form-select" aria-label="Default select example" th:field="*{categoria.idCategoria}"
                                                             name="categoria" required="true">
 
                                                         <option th:each="categoria : ${categorias}" th:value="${categoria.idCategoria}">[[${categoria.descripcion}]]</option>
