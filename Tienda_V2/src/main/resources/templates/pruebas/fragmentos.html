@@ -6,25 +6,24 @@
         <title>TechShop</title>
     </head>
     <body>
-         <!-- 1 Sección principal para mostrar la informaccion de las categorias -->
-        <section th:fragment="categoriasTabs" id="categorias">
-            <div class="row py-4">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link" 
-                           aria-current="page" 
-                           href="/pruebas/listado"
-                           >[[#{pruebas.todas}]]</a>
-                    </li>
-                    <li th:each="categoria : ${categorias}" class="nav-item">
-                        <a class="nav-link" 
-                           th:href="@{/pruebas/listado/}+${categoria.idCategoria}"
-                           >[[${categoria.descripcion}]]</a>
-                    </li>                    
-                </ul>
+        <!-- 1 Sección para crear el boton de agregar... llamará a una ventana modal-->
+        <section th:fragment="categoriaTabs" class="py-4 mb-4 bg-light">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pruebas/listado">Todas</a>
+                        </li>
+                        <li class="nav-item" th:each="categoria : ${categorias}">
+                            <a class="nav-link" th:href="@{/pruebas/listado/}+${categoria.idCategoria}">[[${categoria.descripcion}]]</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
         </section>
- 
+
+
         <!-- 2 Sección principal para mostrar la informaccion de la entidad producto -->
         <section th:fragment="listadoProductos" id="productos">
             <div class="container">
@@ -44,6 +43,7 @@
                                             <th>[[#{producto.total}]]</th>
                                             <th>[[#{producto.activo}]]</th>
                                             <th>[[#{producto.categoria}]]</th>
+
                                             <th></th></tr>
                                     </thead>
                                     <tbody>
@@ -111,6 +111,7 @@
                         </div>
                     </form>
                 </div>   
+
                 <div class="col-md-3">
                     <form method="POST" th:action="@{/pruebas/query2}" 
                           class="was-validated">
@@ -137,7 +138,8 @@
                         </div>
                     </form>
                 </div>
-                 <div class="col-md-3">
+                
+                <div class="col-md-3">
                     <form method="POST" th:action="@{/pruebas/query3}" 
                           class="was-validated">
                         <div class="card">                            
@@ -163,8 +165,10 @@
                         </div>
                     </form>
                 </div>
+                
             </div>
         </section> 
+
+
     </body>
 </html>
-
